@@ -3,3 +3,81 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* inizio main */
+
+b{
+    position: relative;
+}
+
+main{
+    
+       
+    
+
+    padding-top: 80px;
+
+    /* test */
+    background-color: lightcoral;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 10px 6px;
+
+    background-color: teal;
+    max-width: 1820px;
+    height: 100vh;
+    /* test */
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.container .webcam {
+    border: 1px solid white;    
+    height: 150px;
+    background-color: red;
+    /* test */
+
+
+    width: calc(100%/7 - 10px / 7 * 6);
+}
+
+.container .webcam img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+
+
+
+/* inizio navbar */
+
+nav{
+    background-color: aqua;
+    height: 100px;
+    /* test */
+
+    position: fixed;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+
+}
