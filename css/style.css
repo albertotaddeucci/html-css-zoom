@@ -102,20 +102,65 @@ main{
 /* inizio navbar */
 
 nav{
-    background-color: aqua;
-    height: 100px;
+    /* height: 100px; */
     /* test */
-
+    
     position: fixed;
     width: 100%;
-
+    
     display: flex;
     justify-content: space-between;
-
-
+    
+    
     position: absolute;
     bottom: 0px;
     left: 0px;
     z-index: 1;
+    
+    background-color: #222222;
+    color: white;
+}
 
+
+
+.container-icon{
+    display: flex;
+    gap: 18px;
+
+    padding: 20px;
+}
+
+.container-icon .cmnd{
+    text-align: center;
+    
+    
+}
+
+.container-icon .cmnd .icon{
+    padding-bottom: 5px;
+
+    font-size: 24px;
+}
+
+.container-icon .expand{
+    display: flex;
+    align-items: center;
+
+    transform: rotate(180deg);
+    font-size: 10px;
+
+}
+
+.container-icon .cmnd:nth-child(4) .icon{
+    color: #4bc800;
+}
+
+.btn-end{
+
+    padding: 35px 22px;
+
+    font-weight: bold;
+    background-color: #4a4a4a;
+    color: red;
+    
 }
