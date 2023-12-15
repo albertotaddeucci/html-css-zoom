@@ -6,19 +6,48 @@
 
 /* inizio main */
 
-b{
-    position: relative;
+body{
+    font-family: sans-serif;
 }
 
+
+/* inizio main */
+
+
+/* buttons */
+.buttons{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    display: flex;
+    gap: 30px;
+
+        
+    
+}
+
+.buttons a{
+    text-decoration: none;
+}
+
+.buttons .btn{
+    padding: 5px 8px;
+    
+    border-radius: 5px;
+
+    background-color: #4a4a4a;
+    color: white;
+
+}
+
+
+
 main{
-    
-       
-    
-
+    position: relative;
     padding-top: 80px;
-
-    /* test */
-    background-color: lightcoral;
+    background-color: #000000;
+    
 }
 
 .container{
@@ -29,10 +58,10 @@ main{
     align-content: flex-start;
     gap: 10px 6px;
 
-    background-color: teal;
+    
     max-width: 1820px;
     height: 100vh;
-    /* test */
+    
 
     margin-left: auto;
     margin-right: auto;
@@ -41,13 +70,21 @@ main{
 
 
 .container .webcam {
-    border: 1px solid white;    
-    height: 150px;
-    background-color: red;
-    /* test */
+   
+    position: relative;
+    color: white;
 
 
     width: calc(100%/7 - 10px / 7 * 6);
+}
+
+
+.container .webcam .user{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.164);
+    padding: 8px;
 }
 
 .container .webcam img{
@@ -55,6 +92,7 @@ main{
     height: 100%;
     display: block;
     object-fit: cover;
+
 }
 
 
